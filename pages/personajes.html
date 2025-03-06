@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/Main.css">
+    <title>Leyendas De La Galaxia</title>
+</head>
+<body>
+    <!-- Encabezado de la web, con el título y la navegación -->
+    <header class="header">
+        <!-- Interruptor para cambiar el tema, porque siempre mola un modo oscuro -->
+        <label class="theme-switch" aria-label="Cambiar tema">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+        <h1 class="header__title">Leyendas De La Galaxia</h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../Main.html" class="nav__link">Templo Jedi</a></li>
+                <li class="nav__item"><a href="personajes.html" class="nav__link">Leyendas</a></li>
+                <li class="nav__item"><a href="registro.html" class="nav__link">Sé un Jedi o Sith</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <!-- Barra lateral para filtrar personajes, muy útil para no perderse -->
+        <aside class="sidebar">
+            <h2 class="sidebar__title">Filtrar por:</h2>
+            <ul class="sidebar__list">
+                <li><a href="#Heroes" class="sidebar__link">Héroes</a></li>
+                <li><a href="#Villains" class="sidebar__link">Villanos</a></li>
+                <li><a href="#Droids" class="sidebar__link">Droides</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Sección de personajes, organizada por categorías -->
+        <section class="characters">
+            <!-- Héroes de la galaxia, los buenos de la peli -->
+            <h2 id="Heroes" class="characters__title">Héroes</h2>
+            <div class="characters__group">
+                <article class="character-card">
+                    <img src="../assets/img/eldespertar-de-la-fuerza-nzltd303ax3i2872.webp" alt="Luke Skywalker" class="character-card__image">
+                    <h3 class="character-card__name">Luke Skywalker</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/Yoda.webp" alt="Yoda" class="character-card__image">
+                    <h3 class="character-card__name">Yoda</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/star-wars-obi-wan-kenobi-ben-6754.webp" alt="Obi-Wan Kenobi" class="character-card__image">
+                    <h3 class="character-card__name">Obi-Wan Kenobi</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/star-wars-anakin-skywalker.webp" alt="Anakin Skywalker" class="character-card__image">
+                    <h3 class="character-card__name">Anakin Skywalker</h3>
+                </article>
+            </div>
+            
+            <!-- Villanos, los que dan problemas en la galaxia -->
+            <h2 id="Villains" class="characters__title">Villanos</h2>
+            <div class="characters__group">
+                <article class="character-card">
+                    <img src="../assets/img/vader.webp" alt="Darth Vader" class="character-card__image">
+                    <h3 class="character-card__name">Darth Vader</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/EmperadorPalpatine.webp" alt="Emperador Palpatine" class="character-card__image">
+                    <h3 class="character-card__name">Emperador Palpatine</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/Darth-Maul.webp" alt="Darth Maul" class="character-card__image">
+                    <h3 class="character-card__name">Darth Maul</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/kylo.webp" alt="Kylo Ren" class="character-card__image">
+                    <h3 class="character-card__name">Kylo Ren</h3>
+                </article>
+            </div>
+            
+            <!-- Droides, los MVPs silenciosos de la saga -->
+            <h2 id="Droids" class="characters__title">Droides</h2>
+            <div class="characters__group">
+                <article class="character-card">
+                    <img src="../assets//img/r2d2.webp" alt="R2-D2" class="character-card__image">
+                    <h3 class="character-card__name">R2-D2</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/c3po.webp" alt="C-3PO" class="character-card__image">
+                    <h3 class="character-card__name">C-3PO</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/grass-star-wars-bb-8.webp" alt="BB-8" class="character-card__image">
+                    <h3 class="character-card__name">BB-8</h3>
+                </article>
+                <article class="character-card">
+                    <img src="../assets/img/ig-88-bounty-hunter-series-by-ian-pesty-art-myself-v0-5yv6cc5j5ugd1.webp" alt="IG-88" class="character-card__image">
+                    <h3 class="character-card__name">IG-88</h3>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer con info y redes sociales -->
+    <footer class="footer">
+        <p class="footer__text">© 2025 Star Wars Fan Page - No afiliado con Lucasfilm</p>
+        <ul class="footer__social">
+            <li><a href="https://facebook.com" target="_blank" class="footer__link">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_parent" class="footer__link">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_self" class="footer__link">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
